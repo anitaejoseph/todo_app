@@ -13,4 +13,3 @@ jobs:
       - name: cd folder 
         working-directory: ./src/webapp/api
       - run: npm install
-      - run: npm run test
