@@ -1,8 +1,7 @@
 name: hello TestBash
 run-name: ${{ github.actor }} is learning Gethub commands
 on: [push]
-jobs:  
-    runs-on: ubuntu-latest
+jobs:      
     steps:
       - run: echo 'TestBash'
-    
+
