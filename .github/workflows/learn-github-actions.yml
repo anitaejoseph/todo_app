@@ -4,5 +4,5 @@ on: [push]
 jobs:   
   runs-on: ubuntu-latest   
     steps:
-      - run: echo "TestBash"
+      - run: echo TestBash
 
