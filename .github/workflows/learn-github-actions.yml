@@ -6,3 +6,11 @@ jobs:
     runs-on: ubuntu-latest   
     steps:
       - run: echo "TestBash"
+
+  run-unit-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: cd folder 
+        working-directory: ./src/webapp/api
+      - run: npm install
+      - run: npm run test
