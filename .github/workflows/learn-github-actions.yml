@@ -4,5 +4,5 @@ on: [push]
 jobs:   
   check-bats-version:
     runs-on: ubuntu-latest   
-      steps:
-        - run: echo "TestBash"
+    steps:
+      - run: echo "TestBash"
